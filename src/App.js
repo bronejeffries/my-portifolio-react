@@ -1,5 +1,8 @@
 import React from 'react';
 import Sidebar from './components/SideComponent'
+import Slider from './components/SliderComponent'
+import About from './components/AboutMeComponent'
+import WhatIdo from './components/WhatIDoComponent'
 import './App.css';
 
 function App() {
@@ -8,174 +11,9 @@ function App() {
   <div className="container-wrap">
     <Sidebar></Sidebar>
     <div id="colorlib-main">
-      <section id="colorlib-hero" className="js-fullheight" data-section="home">
-        <div className="flexslider js-fullheight">
-          <ul className="slides">
-            <li style={{backgroundImage: 'url(images/img_bg_1.jpg)'}}>
-              <div className="overlay" />
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                    <div className="slider-text-inner js-fullheight">
-                      <div className="desc">
-                        <h1>Hi! <br />I'm Jackson</h1>
-                        <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank" rel="noopener noreferrer">colorlib.com</a></h2>
-                        <p><a href="#" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-learn">Download CV <i className="icon-download4" /></a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li style={{backgroundImage: 'url(images/img_bg_2.jpg)'}}>
-              <div className="overlay" />
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-                    <div className="slider-text-inner">
-                      <div className="desc">
-                        <h1>I am <br />a Designer</h1>
-                        <h2>100% html5 bootstrap templates Made by <a href="https://colorlib.com/" target="_blank" rel="noopener noreferrer">colorlib.com</a></h2>
-                        <p><a className="btn btn-primary btn-learn" href="#">View Portfolio <i className="icon-briefcase3" /></a></p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section className="colorlib-about" data-section="about">
-        <div className="colorlib-narrow-content">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-                <div className="col-md-12">
-                  <div className="about-desc">
-                    <span className="heading-meta">About Me</span>
-                    <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p><strong>Hi I'm Jackson Ford</strong> On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country.</p>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-                  <div className="services color-1">
-                    <span className="icon2"><i className="icon-bulb" /></span>
-                    <h3>Graphic Design</h3>
-                  </div>
-                </div>
-                <div className="col-md-3 animate-box" data-animate-effect="fadeInRight">
-                  <div className="services color-2">
-                    <span className="icon2"><i className="icon-globe-outline" /></span>
-                    <h3>Web Design</h3>
-                  </div>
-                </div>
-                <div className="col-md-3 animate-box" data-animate-effect="fadeInTop">
-                  <div className="services color-3">
-                    <span className="icon2"><i className="icon-data" /></span>
-                    <h3>Software</h3>
-                  </div>
-                </div>
-                <div className="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-                  <div className="services color-4">
-                    <span className="icon2"><i className="icon-phone3" /></span>
-                    <h3>Application</h3>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-                  <div className="hire">
-                    <h2>I am happy to know you <br />that 300+ projects done sucessfully!</h2>
-                    <a href="index.html#" className="btn-hire">Hire me</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="colorlib-services" data-section="services">
-        <div className="colorlib-narrow-content">
-          <div className="row">
-            <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-              <span className="heading-meta">What I do?</span>
-              <h2 className="colorlib-heading">Here are some of my expertise</h2>
-            </div>
-          </div>
-          <div className="row row-pt-md">
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-1">
-                <span className="icon">
-                  <i className="icon-bulb" />
-                </span>
-                <div className="desc">
-                  <h3>Innovative Ideas</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-2">
-                <span className="icon">
-                  <i className="icon-data" />
-                </span>
-                <div className="desc">
-                  <h3>Software</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-3">
-                <span className="icon">
-                  <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                  <h3>Application</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-4">
-                <span className="icon">
-                  <i className="icon-layers2" />
-                </span>
-                <div className="desc">
-                  <h3>Graphic Design</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-5">
-                <span className="icon">
-                  <i className="icon-data" />
-                </span>
-                <div className="desc">
-                  <h3>Software</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 text-center animate-box">
-              <div className="services color-6">
-                <span className="icon">
-                  <i className="icon-phone3" />
-                </span>
-                <div className="desc">
-                  <h3>Application</h3>
-                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <Slider></Slider>
+      <About></About>
+      <WhatIdo></WhatIdo>
       <div id="colorlib-counter" className="colorlib-counters" style={{backgroundImage: 'url(images/cover_bg_1.jpg)'}} data-stellar-background-ratio="0.5">
         <div className="overlay" />
         <div className="colorlib-narrow-content">
