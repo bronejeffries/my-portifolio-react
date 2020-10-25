@@ -9,7 +9,7 @@ class SideComponent extends Component{
                 <aside id="colorlib-aside"  className="border js-fullheight">
                     <div className="text-center">
                         <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
-                        <h1 id="colorlib-logo"><a href="index.html">Jackson Ford</a></h1>
+                        <h1 id="colorlib-logo"><a href="index.html">Ssemate Brian</a></h1>
                         <span className="position"><a href="index.html#">Software Developer/Designer</a> in Uganda, Africa</span>
                     </div>
                     <nav id="colorlib-main-menu" role="navigation" className="navbar">
